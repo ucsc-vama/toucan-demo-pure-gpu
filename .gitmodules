@@ -1,0 +1,3 @@
+[submodule "riscv-benchmarks-bin"]
+	path = riscv-benchmarks-bin
+	url = https://github.com/haoozi/riscv-benchmarks-bin.git

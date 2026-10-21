@@ -4,3 +4,18 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# Local builds and executable.
+/build/
+/emulator
+*.o
+__pycache__/
+
+# Release assets contain all compiled designs and the larger design sources.
+/toucan-pure-gpu-designs.tar.gz
+/toucan-pure-gpu-designs.tar.gz.sha256
+/designs/manifest.json
+/designs/*/*.bin
+/designs/*/
+!/designs/rocket21-1c/
+!/designs/boom21-small/
